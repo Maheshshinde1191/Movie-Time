@@ -5,22 +5,27 @@ img{
 
 h1
 {
-    color: #ffffff;
+    color: black;
     font-weight: bold;
 }
 
 p{
-    color: #ffffff;
+    color: black;
 }
 
 a{
-    background-color: #E50914;
-    color: #ffffff;
+    background-color: #ff450b;
+    color: white;
     text-decoration: none;
 }
 
 a:hover{
-    background-color: #E50914;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    background-color: #ff450b;
+    color: black;
+    border: 2px solid black;
+}
+
+.main-bg{
+    background: url("https://cdn.pixabay.com/photo/2015/05/21/23/15/movie-778063_960_720.jpg") no-repeat;
+    background-size: cover;
 }

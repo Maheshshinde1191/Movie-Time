@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl,FormGroup} from '@angular/forms';
 import { MovieApiServiceService } from 'src/app/service/movie-api-service.service';
-import { Title,Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-search',
@@ -10,9 +9,8 @@ import { Title,Meta } from '@angular/platform-browser';
 })
 export class SearchComponent implements OnInit {
 
-  constructor(private service:MovieApiServiceService,private title:Title,private meta:Meta) {
-    this.title.setTitle('Search movies - showtime');
-    this.meta.updateTag({name:'description',content:'search here movies like avatar,war etc'});
+  constructor(private service:MovieApiServiceService) {
+    
    }
 
   ngOnInit(): void {

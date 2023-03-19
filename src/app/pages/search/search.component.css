@@ -1,13 +1,13 @@
 button
 {
-    background-color: #E50914;
-    color: #ffffff;
+    background-color: #ff450b;
+    color: black;
 }
 
 button:hover
 {
-    background-color: #E50914;
-    color: #ffffff;
+    background-color: #ff450b;
+    color: black;
 }
 
 img{
@@ -17,5 +17,14 @@ img{
 
 h5
 {
-    color: #ffffff;
+    color: black;
+}
+input{
+    border: 1px solid black;
+}
+
+.main-bg{
+    background: url("https://cdn.pixabay.com/photo/2015/05/21/23/15/movie-778063_960_720.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }

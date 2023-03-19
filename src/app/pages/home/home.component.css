@@ -11,7 +11,7 @@
 
 .carousel-caption h2
 {
-    color: #E50914;
+    color: #ff450b;
     font-weight: bold;
     font-size: 30px;
 }
@@ -50,4 +50,15 @@
 .rowposter::-webkit-scrollbar
 {
     display: none;
+}
+
+.hr{
+    width: 192px;
+    margin: auto;
+    border: 2px solid #080808;
+}
+.main-bg{
+    background: url("https://cdn.pixabay.com/photo/2015/05/21/23/15/movie-778063_960_720.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
